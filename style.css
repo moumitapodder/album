@@ -1,0 +1,90 @@
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background-image:url('baby.jpg');
+  background-size: cover;
+  font-family: Helvetica N,eue Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+h1{
+    color: rgb(255, 238, 0);
+    left:200px;
+    top:200px;
+}
+h1:hover{
+    box-shadow: 0 5px 50px 0 #15f4ee inset,0 5px 50px 0 #15f4ee,0 5px 50px 0 #15f4ee inset,0 5px 50px 0 #15f4ee;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.swiper {
+  width: 330px;
+  height: 550px;
+}
+.swiper:hover {
+    box-shadow: 0 5px 50px 0 #4b2850 inset,0 5px 50px 0 #e115f4,0 5px 50px 0 #f4e515 inset,0 5px 50px 0 #f415aa;
+}
+
+.swiper-slide {
+  display: flex;
+  left:300px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 18px;
+  font-size: 22px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.swiper-slide:nth-child(1n) {
+  background-image: url('img.jpg');
+}
+
+.swiper-slide:nth-child(2n) {
+  background-image: url('l.jpg');
+}
+
+.swiper-slide:nth-child(3n) {
+  background-image:url('uo.jpg')
+}
+
+.swiper-slide:nth-child(4n) {
+  background-image:url('ba.jpg')
+}
+
+.swiper-slide:nth-child(5n) {
+  background-image:url('baby.jpg')
+}
+
+.swiper-slide:nth-child(6n) {
+  background-image:url('ma.jpg')
+}
+
+.swiper-slide:nth-child(7n) {
+  background-image:url('new.jpg')
+}
+
+.swiper-slide:nth-child(8n) {
+  background-image:url('di.jpg')
+}
+
+.swiper-slide:nth-child(9n) {
+  background-image:url('fa.jpg')
+}
+
+.swiper-slide:nth-child(10n) {
+  background-image:url('new.jpg ')
+}
